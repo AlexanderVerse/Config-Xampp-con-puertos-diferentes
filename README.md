@@ -132,6 +132,8 @@ $conn->close();
 //http://Servidorerla:8282/factura/data4.php?id=1&folio=456&nombre=alma&fichero=reads.pdf&fecha=2019/01/30
 ?>
 ```
+
+***
 19.- Y por ultimo vamos a un navegador y ponemos la siguiente línea
 En _puerto_ ponemos el que configuramos para apache y en _Carpeta_creada_ ponemos la que cremos en el punto 17.
 **localhost:puerto/Carpeta_creada**
