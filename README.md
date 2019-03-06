@@ -8,6 +8,7 @@
 #### _Pasos:_
 1.- Iniciar XAMPP
 ![IMG](Images/Inicio_xampp.png)
+
 ***
 
 2.- Damos click en el botón _Config_ del **Apache**. Abrimos el archivo "Apache (httpd.conf)"
@@ -139,3 +140,7 @@ En _puerto_ ponemos el que configuramos para apache y en _Carpeta_creada_ ponemo
 **localhost:puerto/Carpeta_creada**
 Esto mostrará lo siguiente y hemos terminado por fin.
 ![IMG](Images/Final.png)
+
+
+Nota: Puede que haya un problema al apagar mysql y volver a conectarlo ya que los datos que estaban se borrarán.
+![IMG](Images/R.png)
