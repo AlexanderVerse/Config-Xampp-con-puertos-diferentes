@@ -81,4 +81,59 @@ Volvemos abrir el archivo que mencionamos en el punto 6 y en donde dice password
 ![IMG](Images/show.png)
 
 ***
-17.-
+17.- Ahora creamos en **htdocs** una carpeta y dentro de esa carpeta creamos un archivo **index.php**. En este caso la carpeta se llama **Sistemas**.
+![IMG](Images/Carpeta1.png)
+![IMG](Images/Carpeta2.png)
+![IMG](Images/Carpeta3.png)
+
+***
+18.- En el archivo **index.php** ponemos el siguiente codigo. Donde dice servername ponemos el nombre del servidor junto con el puerto que configuramos para apache.
+En username ponemos el usuario con el cual que nos queremos conectar.
+En password ponemos la contraseña del usuario.
+dbname ponemos el nombre de la base de datos.
+```php
+<?php
+$servername='localhost:8383';
+$username='root';
+$password='rootarg';
+$dbname='folios';
+
+//Create connection
+$conn = new mysqli($servername,$username,$password,$dbname);
+//Check connection
+if ($conn->connect_error)
+{
+	Die("Connection failed: ".$conn->connect_error);
+}
+
+$id = isset($_GET['id'])?$_GET['id']:0;
+$vendedor = isset($_GET["id"])?$_GET['id']:'0';
+$folio = isset($_GET["folio"])?$_GET['folio']:'0';
+$nombre = isset($_GET["nombre"])?$_GET['nombre']:'0';
+$fichero = isset($_GET["fichero"])?$_GET['fichero']:'0';
+$fecha = isset($_GET["fecha"])?$_GET['fecha']:'0';
+
+$sql = "SELECT * from factura2 where vendedor = '".$vendedor."'";
+$sql ="insert into factura2 (vendedor, folio, nombre, fichero, fecha, log) values ($vendedor,$folio,'$nombre','$fichero','$fecha', now())";
+//echo $sql;
+$result = $conn->query($sql);
+
+$sql = "SELECT * from factura2 where vendedor = '".$id."'";
+//echo $sql;
+$result = $conn->query($sql);
+If ($result->num_rows > 0){
+//output data of each row
+While($row = $result->fetch_assoc())
+{
+	echo "id:".$row["id"].";Vendedor:".$row["vendedor"].";folio:".$row["folio"].";nombre:".$row["nombre"].";fichero:".$row["fichero"].";fecha:".$row["fecha"].";log:".$row["log"]."<br>";
+	}
+}
+$conn->close();
+//http://Servidorerla:8282/factura/data4.php?id=1&folio=456&nombre=alma&fichero=reads.pdf&fecha=2019/01/30
+?>
+```
+19.- Y por ultimo vamos a un navegador y ponemos la siguiente línea
+En _puerto_ ponemos el que configuramos para apache y en _Carpeta_creada_ ponemos la que cremos en el punto 17.
+**localhost:puerto/Carpeta_creada**
+Esto mostrará lo siguiente y hemos terminado por fin.
+![IMG](Images/Final.png)
