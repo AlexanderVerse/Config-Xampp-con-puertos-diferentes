@@ -7,11 +7,11 @@
 
 ####_Pasos:_
 1.- Iniciar XAMPP
-![IMG](Images\Inicio_xampp.png)
+![IMG](Images/Inicio_xampp.png)
 ***
 
 2.- Damos click en el botón _Config_ del **Apache**. Abrimos el archivo "Apache (httpd.conf)"
-![IMG](Images\Config1.png)
+![IMG](Images/Config1.png)
 ***
 
 3.-	Buscamos las lineas **ServerName localhost:_puerto_** y **Listen:_puerto_** en el archivo. En **_puerto_** ponemos el que nosotros queremos.(En este caso es 8282)
