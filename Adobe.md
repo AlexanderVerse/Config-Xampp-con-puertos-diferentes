@@ -1,4 +1,4 @@
-#Archivos compatibles que puede abrir Ilustrator
+# Archivos compatibles que puede abrir Ilustrator
 Son para que el archivo pueda ser editado en otra forma, no en su estado final.
 
 |Formato|Extensión| |
@@ -35,7 +35,7 @@ Son para que el archivo pueda ser editado en otra forma, no en su estado final.
 |TIFF|tif,tiff|
 |Metarchivo de Windows|wmf|
 
-##Archivos que puede colocar Ilustrator
+## Archivos que puede colocar Ilustrator
 Sirve para traer elementos en una hoja donde ya se empezó hacer algunos dibujos.
 
 |Formato|Extensión|
@@ -68,7 +68,7 @@ Sirve para traer elementos en una hoja donde ya se empezó hacer algunos dibujos
 |Metarchivo de Windows |(wmf)||
 
 
-##Archivos para guardar
+## Archivos para guardar
 Abre archivos para que sean editados en ilustrator o en otra aplicación
 
 |Formato|Extensión|
@@ -81,7 +81,7 @@ Abre archivos para que sean editados en ilustrator o en otra aplicación
 |SVG comprimido| (svgz)|
 
 
-##Formato para exportar (No nativos)
+## Formato para exportar (No nativos)
 Es para declarar el archivo como final, ya para que sea utilizado.	
 Ilustrator no puede recuperar todos los datos si vuelve abrir el archivo en ilustrator. Se recomienda que acabe de editar el archivo y hasta el final exportarlo.
 
@@ -103,7 +103,7 @@ Ilustrator no puede recuperar todos los datos si vuelve abrir el archivo en ilus
 |TIFF| (tif)
 |Metarchivo de Windows| (wmf)|
 
-##Para guardar en la web
+## Para guardar en la web
 |Formato|Extensión|
 |---|---|---|
 |GIF|gif
@@ -122,7 +122,7 @@ Ilustrator no puede recuperar todos los datos si vuelve abrir el archivo en ilus
 |jpg, png, bmp, gif| SVG, EPS, PDF, crd, ink|
 
 
-##Compatibles con Ilustrator 
+## Compatibles con Ilustrator 
 **En estas podemos reutilizar los gráficos vectoriales**
 - _Potoshop_
 - _InDesign_
