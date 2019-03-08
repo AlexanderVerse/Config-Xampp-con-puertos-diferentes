@@ -38,7 +38,7 @@ Son para que el archivo pueda ser editado en otra forma, no en su estado final.
 ## Archivos que puede colocar Ilustrator
 Sirve para traer elementos en una hoja donde ya se empezó hacer algunos dibujos.
 
-|Formato|Extensión|
+|Formato|Extensión||
 |---|---|---|
 |Adobe Illustrator| (ai, ait)|
 |Adobe PDF| (pdf)|
@@ -71,7 +71,7 @@ Sirve para traer elementos en una hoja donde ya se empezó hacer algunos dibujos
 ## Archivos para guardar
 Abre archivos para que sean editados en ilustrator o en otra aplicación
 
-|Formato|Extensión|
+|Formato|Extensión||
 |---|---|---|
 |Adobe Illustrator| (ai)|
 |Adobe PDF| (pdf)|
@@ -85,7 +85,7 @@ Abre archivos para que sean editados en ilustrator o en otra aplicación
 Es para declarar el archivo como final, ya para que sea utilizado.	
 Ilustrator no puede recuperar todos los datos si vuelve abrir el archivo en ilustrator. Se recomienda que acabe de editar el archivo y hasta el final exportarlo.
 
-|Formato|Extensión|
+|Formato|Extensión||
 |---|---|---|
 |AutoCAD Drawing |(dwg)
 |AutoCAD Interchange File| (dxf)
@@ -104,14 +104,14 @@ Ilustrator no puede recuperar todos los datos si vuelve abrir el archivo en ilus
 |Metarchivo de Windows| (wmf)|
 
 ## Para guardar en la web
-|Formato|Extensión|
+|Formato|Extensión||
 |---|---|---|
 |GIF|gif
 |JPEG|jpg|
 |PNG|png|
 
 
-|Formato|Extensión|
+|Formato|Extensión||
 |---|---|---|
 |Mapa de bits| Gráfico Vectorial|
 |Utilizan una cuadricula rectangular que esta formada por pixeles. Cada pixel se le asigna una ubicación y un valor de color.|Se describen mediante lineas, formas y otros componentes gráficos de imagen almacenados en un formato que incorpora fórmulas geométricas.|
